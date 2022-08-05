@@ -16,7 +16,7 @@ int main()
 		printf("In Child Process \n");
 		//making child process sleep for some time
 		sleep(10);
-		printf("After sleep time);	
+		printf("After sleep time");	
 	}
 	else if(child_pid < 0)
 	{
