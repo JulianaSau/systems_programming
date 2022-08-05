@@ -18,7 +18,7 @@ int main()
 		exit(0);
 		
 	}
-	else if(pid < 0)
+	else if(child_pid < 0)
 	{
 		printf("Child Process creation failed\n");
 	}
